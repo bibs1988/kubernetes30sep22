@@ -11,11 +11,6 @@ spec:
      labels: 
         app: mynginx
    spec:
-   containers:
-   - name: mynginx
-     image: nginx
-     port:
-     - containersport: 80
      containers:
      - name: mynginx
        image: nginx
