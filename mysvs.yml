@@ -8,8 +8,8 @@ metadata:
 spec:
  type: nodeport
  ports:
-  port: 8080
-  nodeport:3001
+  port: 80
+  nodeport: 3001
   protocol: TCP
     
  selector:
