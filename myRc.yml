@@ -17,7 +17,7 @@ spec:
      port:
      - containersport: 80
      containers:
-     - name:
-       image:
+     - name: mynginx
+       image: nginx
        ports:
         containersport: 80
