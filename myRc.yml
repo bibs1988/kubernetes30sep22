@@ -6,15 +6,18 @@ spec:
  replicas: 3
  selector:
    app: mynginx
-
-
-template:
+ template:
    metadata: 
      labels: 
         app: mynginx
-spec:
+   spec:
    containers:
    - name: mynginx
      image: nginx
      port:
      - containersport: 80
+     containers:
+     - name:
+       image:
+       ports:
+        containersport: 80
